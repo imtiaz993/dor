@@ -5,6 +5,8 @@ import Link from "next/link";
 import React, { useRef, useState } from "react";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const Explore = () => {
   const swiperRef = useRef<any>();
