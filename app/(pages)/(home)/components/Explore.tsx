@@ -5,6 +5,7 @@ import Link from "next/link";
 import React, { useRef, useState } from "react";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -56,7 +57,7 @@ const Explore = () => {
                 className="font-semibold text-[12px] sm:text-sm flex items-center gap-x-1 justify-center"
               >
                 Buy on Flipkart
-                <img
+                <Image
                   src="/assets/images/home/right-chev.svg"
                   width="8"
                   height="12"
@@ -64,7 +65,7 @@ const Explore = () => {
                   className="w-2.5 h-auto"
                 />
               </Link>
-              <img
+              <Image
                 src="/assets/images/home/dor.png"
                 width="550"
                 height="374"
@@ -90,7 +91,7 @@ const Explore = () => {
                 className="font-semibold text-[12px] sm:text-sm flex items-center gap-x-1 justify-center"
               >
                 Get Subscribed
-                <img
+                <Image
                   src="/assets/images/home/right-chev.svg"
                   width="8"
                   height="12"
@@ -98,7 +99,7 @@ const Explore = () => {
                   className="w-2.5 h-auto"
                 />
               </Link>
-              <img
+              <Image
                 src="/assets/images/home/dor-play.png"
                 width="550"
                 height="374"
