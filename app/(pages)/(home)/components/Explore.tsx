@@ -56,7 +56,7 @@ const Explore = () => {
                 className="font-semibold text-[12px] sm:text-sm flex items-center gap-x-1 justify-center"
               >
                 Buy on Flipkart
-                <Image
+                <img
                   src="/assets/images/home/right-chev.svg"
                   width="8"
                   height="12"
@@ -64,7 +64,7 @@ const Explore = () => {
                   className="w-2.5 h-auto"
                 />
               </Link>
-              <Image
+              <img
                 src="/assets/images/home/dor.png"
                 width="550"
                 height="374"
@@ -90,7 +90,7 @@ const Explore = () => {
                 className="font-semibold text-[12px] sm:text-sm flex items-center gap-x-1 justify-center"
               >
                 Get Subscribed
-                <Image
+                <img
                   src="/assets/images/home/right-chev.svg"
                   width="8"
                   height="12"
@@ -98,7 +98,7 @@ const Explore = () => {
                   className="w-2.5 h-auto"
                 />
               </Link>
-              <Image
+              <img
                 src="/assets/images/home/dor-play.png"
                 width="550"
                 height="374"
