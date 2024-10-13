@@ -11,6 +11,7 @@ import "swiper/css/pagination";
 
 const Explore = () => {
   const swiperRef = useRef<any>();
+  const [swiperIndex, setSwiperIndex] = useState(0);
   return (
     <section className="relative pt-10 md:pt-14 lg:pt-16 xl:pt-[76px] pb-12 md:pb-16 lg:pb-[86px] xl:pb-[105px]">
       <div className="container">
@@ -111,22 +112,20 @@ const Explore = () => {
       <div className="md:hidden flex items-center justify-center mt-4">
         <div
           className={`mr-1 w-1.5 h-1.5 rounded-full cursor-pointer ${
-            swiperRef?.current?.swiper?.activeIndex === 0
-              ? "bg-white"
-              : "bg-[#5A5A5A]"
+            swiperIndex === 0 ? "bg-white" : "bg-[#5A5A5A]"
           } `}
           onClick={() => {
             swiperRef.current.swiper.slidePrev();
+            setSwiperIndex(0);
           }}
         ></div>
         <div
           className={`w-1.5 h-1.5 rounded-full cursor-pointer ${
-            swiperRef?.current?.swiper?.activeIndex === 1
-              ? "bg-white"
-              : "bg-[#5A5A5A]"
+            swiperIndex === 1 ? "bg-white" : "bg-[#5A5A5A]"
           } bg-white`}
           onClick={() => {
             swiperRef.current.swiper.slideNext();
+            setSwiperIndex(1);
           }}
         ></div>
         <div>
