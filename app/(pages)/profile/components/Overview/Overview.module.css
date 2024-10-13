@@ -1,0 +1,8 @@
+.SubscriptionCard {
+  background: linear-gradient(90deg, #DA0C15 -42.93%, #004D9C 119.18%), linear-gradient(180deg, #252323 0%, rgba(19, 19, 19, 0.40) 100%);
+}
+
+.UserCard {
+  background: linear-gradient(180deg, #252323 0%, rgba(19, 19, 19, 0.40) 100%);
+  
+}

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0C0C0C;
+  --foreground: #fff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.container{
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.hero{
+  background: url(../public/assets/images/home/hero.png) no-repeat center;
+  background-size: cover;
+}
+.gredientHeading{
+  background-color: #3A63F1;
+  background-image: linear-gradient(to right, #3A63F1, #90D1F9);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+.react-tabs__tab--selected{
+  font-weight: 600;
+}
