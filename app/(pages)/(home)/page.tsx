@@ -8,9 +8,6 @@ import Features from "./components/Features";
 import Faqs from "./components/Faqs";
 import Footer from "@/app/components/Footer";
 
-import "swiper/css/pagination";
-import "swiper/css";
-
 export default function Home() {
   return (
     <>
