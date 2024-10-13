@@ -23,7 +23,7 @@ const Explore = () => {
         </p>
 
         <Swiper
-          // ref={swiperRef}
+          ref={swiperRef}
           spaceBetween={20}
           slidesPerView={2}
           pagination={{ clickable: true, el: ".swiper-custom-pagination" }}
