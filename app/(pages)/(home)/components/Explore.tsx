@@ -122,7 +122,7 @@ const Explore = () => {
         <div
           className={`w-1.5 h-1.5 rounded-full cursor-pointer ${
             swiperIndex === 1 ? "bg-white" : "bg-[#5A5A5A]"
-          } bg-white`}
+          } `}
           onClick={() => {
             swiperRef.current.swiper.slideNext();
             setSwiperIndex(1);
