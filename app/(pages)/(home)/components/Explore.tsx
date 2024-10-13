@@ -10,9 +10,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const Explore = () => {
-  const swiperRef = useRef<any>();
-  const [swiperIndex, setSwiperIndex] = useState(0);
-  const slidesCount = 2;
+  // const swiperRef = useRef<any>();
+  // const [swiperIndex, setSwiperIndex] = useState(0);
+  // const slidesCount = 2;
   return (
     <section className="relative pt-10 md:pt-14 lg:pt-16 xl:pt-[76px] pb-12 md:pb-16 lg:pb-[86px] xl:pb-[105px]">
       <div className="container">
@@ -25,7 +25,7 @@ const Explore = () => {
         </p>
 
         <Swiper
-          ref={swiperRef}
+          // ref={swiperRef}
           spaceBetween={20}
           slidesPerView={2}
           pagination={{ clickable: true, el: ".swiper-custom-pagination" }}
@@ -110,7 +110,7 @@ const Explore = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="md:hidden flex items-center justify-center mt-4">
+      {/* <div className="md:hidden flex items-center justify-center mt-4">
         <div
           className={`mr-1 w-1.5 h-1.5 rounded-full cursor-pointer ${
             swiperRef.current.swiper.activeIndex === 0
@@ -136,7 +136,7 @@ const Explore = () => {
         <div>
           <div className="swiper-custom-pagination" />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
