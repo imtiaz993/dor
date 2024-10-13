@@ -10,9 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const Explore = () => {
-  // const swiperRef = useRef<any>();
-  // const [swiperIndex, setSwiperIndex] = useState(0);
-  // const slidesCount = 2;
+  const swiperRef = useRef<any>();
   return (
     <section className="relative pt-10 md:pt-14 lg:pt-16 xl:pt-[76px] pb-12 md:pb-16 lg:pb-[86px] xl:pb-[105px]">
       <div className="container">
@@ -110,33 +108,31 @@ const Explore = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      {/* <div className="md:hidden flex items-center justify-center mt-4">
+      <div className="md:hidden flex items-center justify-center mt-4">
         <div
           className={`mr-1 w-1.5 h-1.5 rounded-full cursor-pointer ${
-            swiperRef.current.swiper.activeIndex === 0
+            swiperRef?.current?.swiper?.activeIndex === 0
               ? "bg-white"
               : "bg-[#5A5A5A]"
           } `}
           onClick={() => {
             swiperRef.current.swiper.slidePrev();
-            setSwiperIndex(swiperRef.current.swiper.activeIndex);
           }}
         ></div>
         <div
           className={`w-1.5 h-1.5 rounded-full cursor-pointer ${
-            swiperRef.current.swiper.activeIndex === 1
+            swiperRef?.current?.swiper?.activeIndex === 1
               ? "bg-white"
               : "bg-[#5A5A5A]"
           } bg-white`}
           onClick={() => {
             swiperRef.current.swiper.slideNext();
-            setSwiperIndex(swiperRef.current.swiper.activeIndex);
           }}
         ></div>
         <div>
           <div className="swiper-custom-pagination" />
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
