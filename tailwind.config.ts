@@ -20,11 +20,17 @@ const config: Config = {
         "gray-500": "#8B8B8B",
         "gray-800": "#333",
         "gray-900": "#131313",
+        "gray-300": "#D1D1D1",
+        "gray-600": "#646464",
+        "gray-700": "#515151",
+        "success-100": "#6CE9A6",
+        "error-100": "#FECDCA",
       },
       fontFamily: {
         geist: ['var(--font-geist-sans)'],
         neuehaasMedium: ['var(--font-neuehaas-medium)'],
         neuehaasLight: ['var(--font-neuehaas-ligh)'],
+        "neue-medium": ["Neue Haas Display Medium", "sans-serif"],
       }
     },
   },
