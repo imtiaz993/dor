@@ -8,14 +8,14 @@ const MultiSliders = () => {
         <div className="py-2.5 px-6 bg-white rounded-[50px] flex items-start justify-center w-fit mx-auto mb-5">
           <Image
             src="/assets/images/home/dor-tv.svg"
-            width="95"
-            height="41"
+            width="60"
+            height="29"
             alt=""
-            className="w-10 sm:w-14 md:w-16 lg:w-20 xl:w-[95px] h-auto"
+            className="w-10 sm:w-14 md:w-16 lg:w-20 xl:w-[60px] h-auto"
           />
         </div>
-        <h2 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-4">
-          Smarter than your average smart TV
+        <h2 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold mb-6">
+          A smart subscription for smarter entertainment
         </h2>
         <div className="flex items-center gap-x-1 xl:gap-x-6 gap-y-4 flex-wrap justify-center md:justify-between mb-6 md:mb-10">
           <div className="flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]">
@@ -120,7 +120,7 @@ const MultiSliders = () => {
           </div>
         </div>
         <p className="text-center text-sm sm:text-base lg:text-lg xl:text-xl mb-2 md:mb-4">
-          Starting from ₹9,999*
+          Starting from ₹999/month*
         </p>
         <div className="flex-col sm:flex-row flex items-center justify-center gap-x-6 mb-2">
           <Link
@@ -150,7 +150,9 @@ const MultiSliders = () => {
             />
           </Link>
         </div>
-        <p className="text-sm text-center text-[#F7F7F7]">*Monthly subscrition fee extra</p>
+        <p className="text-xs text-center text-[#ACACAC]">
+          *Upfront fee of ₹10,999 - includes 3 months subscription
+        </p>
         <Image
           src="/assets/images/home/dor-mob.png"
           width="803"

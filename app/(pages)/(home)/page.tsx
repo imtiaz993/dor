@@ -7,6 +7,7 @@ import Subscription from "./components/Subscription";
 import Features from "./components/Features";
 import Faqs from "./components/Faqs";
 import Footer from "@/app/components/Footer";
+import WelcomeText from "./components/WelcomeText";
 
 const Explore = dynamic(() => import("./components/Explore"), { ssr: false });
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Subscription />
       <Features />
       <Faqs />
+      <WelcomeText />
       <Footer />
     </>
   );

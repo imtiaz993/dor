@@ -26,7 +26,7 @@ const Subscription = () => {
               alt=""
               className="w-3 h-auto"
             />
-            25+OTT apps
+            24+OTT apps
           </div>
           <div className="flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#F7F7F7]">
             <Image
@@ -103,7 +103,6 @@ const Subscription = () => {
             />
           </Link>
         </div>
-        <p className="text-sm text-center">*Monthly subscrition fee extra</p>
         <Image
           src="/assets/images/home/subscribe.png"
           width="1581"

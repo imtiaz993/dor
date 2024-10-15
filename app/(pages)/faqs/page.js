@@ -1,6 +1,6 @@
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
-import FAQAccordian from "./components/FAQAccordian";
+import FAQAccordian from "../../components/FAQAccordian";
 import NeedMoreHelp from "./components/NeedMoreHelp";
 
 export const metadata = {
@@ -22,7 +22,7 @@ const FAQ = () => {
           <h2 className="mt-[20px] text-[30px] font-semibold leading-[38px] text-gray-50">
             Frequently Asked Questions
           </h2>
-          <p className="text-[14px] mt-2 text-gray-400 mb-10">
+          <p className="text-[14px] mt-2 text-gray-400 mb-[351px]">
             Some common queries about our product & services
           </p>
           <FAQAccordian />

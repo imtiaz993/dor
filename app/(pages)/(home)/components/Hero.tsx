@@ -4,17 +4,14 @@ import PartnersSlider from "./PartnersSlider";
 
 const Hero = () => {
   return (
-    <section className="hero pb-8">
+    <section className="hero sm:pb-8">
       <div className="container ">
-        <div className="text-center sm:text-left pt-[163px] pb-[55px] sm:pb-[216px] max-w-[870px]">
-          <p className=" text-sm sm:text-lg md:text-xl leading-[1.5] text-[#ACACAC] mb-1.5">
-            Introducing the World’s First All-in-One Bundled TV
-          </p>
-          <h2 className="font-semibold text-[30px] sm:text-6xl lg:text-[64px] xl:text-7xl mb-48 sm:mb-10 text-white">
-            Dor - A killer TV. Entertainment, Redefined!
+        <div className="text-center sm:text-left pt-[100px] pb-[55px] sm:pb-[216px] max-w-[870px]">
+          <h2 className="font-semibold text-[30px] sm:text-6xl lg:text-[64px] xl:text-7xl mb-48 sm:mb-6 text-white">
+            Dor - India’s First Subscription TV
           </h2>
           <p className="text-sm sm:text-lg md:text-xl leading-[1.5] text-[#D1D1D1] mb-3">
-            Dor TV now available in 43" and 55" at irresistible prices.
+            Dor 43" available for ₹999/month
           </p>
           <Link
             href="#"

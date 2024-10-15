@@ -19,8 +19,7 @@ const Explore = () => {
           Explore the world of Dor
         </h1>
         <p className="text-[#D1D1D1] text-[12px] sm:text-sm md:text-base lg:text-lg xl:text-xl text-center mb-8 md:mb-12 xl:mb-20">
-          Choose from bundled subscriptions custom-made for your viewing
-          pleasure
+          Everything you want to watch, at a screen closest to you
         </p>
 
         <Swiper
@@ -48,8 +47,8 @@ const Explore = () => {
               <h1 className="text-2xl md:text-3xl xl:text-4xl font-semibold mb-1">
                 Dor
               </h1>
-              <p className="max-w-[173px] mb-7 sm:mb-[22px] mx-auto px-2 text-[12px] md:text-sm text-[#D1D1D1]">
-                Available in 43” and 55” Starting at ₹9,999 only
+              <p className="mb-7 sm:mb-[22px] mx-auto px-2 text-[12px] md:text-sm text-[#D1D1D1]">
+                Available in 43" for as low as ₹999/month*
               </p>
               <Link
                 href={"#"}
@@ -64,6 +63,9 @@ const Explore = () => {
                   className="w-2.5 h-auto"
                 />
               </Link>
+              <p className="mx-auto px-2 mt-1 text-[11px] md:text-sm text-[#D1D1D1]">
+              *Upfront fee of ₹10,999
+              </p>
               <Image
                 src="/assets/images/home/dor.png"
                 width="550"
@@ -82,8 +84,8 @@ const Explore = () => {
                 DorPlay
               </h1>
               <p className="max-w-[444px] mb-7 sm:mb-[22px] mx-auto px-2 text-[12px] md:text-sm text-[#D1D1D1]">
-                20 OTTs, 200+ live premium and free channels, games and more. At
-                just ₹499/month
+                Get the best value from a bouquet of content subscriptions, all
+                in one place. 24+ OTT Subscriptions at Just ₹499/3 Months
               </p>
               <Link
                 href={"#"}
