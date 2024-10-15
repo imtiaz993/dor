@@ -28,7 +28,7 @@ const Navbar = () => {
     <header className="py-3.5 absolute z-10 w-full top-0 left-0">
       <div className="container">
         <div className="flex items-center sm:gap-x-12 md:gap-x-16 xl:gap-x-20 ">
-          <Link href="#" className="flex items-center">
+          <Link href="/" className="flex items-center">
             <Image
               src="./assets/images/home/logo.svg"
               width="67"
@@ -38,7 +38,7 @@ const Navbar = () => {
           </Link>
           <div className="flex items-center gap-x-4 sm:hidden ml-auto">
             <Link
-              href="#"
+              href="/auth"
               className="text-[12px] font-semibold leading-[1.8] flex items-center gap-x-1 py-1.5 px-3 bg-[#F6443C] rounded-[20px]"
             >
               Sign In
@@ -112,7 +112,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/auth"
                 className="text-[12px] font-semibold leading-[1.8] flex items-center gap-x-1 py-1.5 px-3 bg-[#F6443C] rounded-[20px]"
               >
                 Sign In

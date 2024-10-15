@@ -8,7 +8,7 @@ export const metadata = {
 
 const TermsOfUse = () => {
   return (
-    <div className="relative bg-gray-900">
+    <div className="relative">
       <Navbar alwaysOnTop={true} />
       <div className="flex justify-center">
         <div className="w-[1184px] mt-[110px] mb-[148px] px-8">

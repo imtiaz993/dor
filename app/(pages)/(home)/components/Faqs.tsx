@@ -81,7 +81,7 @@ const Faqs = () => {
           </Tabs>
         </>
         <Link
-          href={"#"}
+          href={"/faqs"}
           className="text-[#F6443C] font-semibold text-[12px] sm:text-sm xl:text-base leading-[1.5] mt-4 pb-6 lg:pb-2 xl:pb-10 flex items-center"
         >
           See All

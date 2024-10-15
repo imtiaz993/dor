@@ -25,11 +25,11 @@ const Footer = () => {
           <p className='text-[11px] text-[#646464]'>Copyright © 2024 Dor. All rights reserved.</p>
           <ul className='flex items-center justify-between gap-x-4'>
             <li>
-              <Link href={"#"} className="text-[11px] text-[#646464]">Privacy Policy</Link>
+              <Link href={"/privacypolicy"} className="text-[11px] text-[#646464]">Privacy Policy</Link>
             </li>
             <li className="text-[11px] text-[#646464]">|</li>
             <li>
-              <Link href={"#"} className="text-[11px] text-[#646464]">Terms of Use</Link>
+              <Link href={"/termsofuse"} className="text-[11px] text-[#646464]">Terms of Use</Link>
             </li>
             <li className="text-[11px] text-[#646464]">|</li>
             <li>
