@@ -4,9 +4,9 @@ import OSSpline from "./OSSpline";
 
 const Features = () => {
   return (
-    <section className="pt-8 sm:pt-24 md:pt-28 lg:pt-32 xl:pt-40 pb-8 sm:pb-20 md:pb-24 lg:pb-28 xl:pb-36">
+    <section className="pt-8 sm:pt-24 md:pt-28 lg:pt-32 xl:pt-40 pb-8 sm:pb-20 md:pb-24 lg:pb-28 xl:pb-36 relative">
       <div className="container">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 xl:gap-x-20 items-center justify-between relative">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 xl:gap-x-20 items-center justify-between">
           <div className="px-20 sm:px-0 py-8 sm:p-0">
             <OSSpline />
           </div>

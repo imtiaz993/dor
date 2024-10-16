@@ -7,7 +7,7 @@ const OSSpline = () => {
   const [isSplineLoaded, setIsSplineLoaded] = useState(false);
 
   return (
-    <div className="max-h-[500px] sm:h-auto sm:w-1/2 absolute inset-0 z-10 overflow-hidden">
+    <div className="max-h-[500px] sm:max-h-[100000px] sm:w-1/2 absolute inset-0 z-10 overflow-hidden">
       <div
         className="w-full absolute z-20 inset-0 transition-opacity duration-500 ease-in-out sm:mt-20"
         style={{ opacity: isSplineLoaded ? 1 : 0 }}
