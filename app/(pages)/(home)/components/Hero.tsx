@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import PartnersSlider from "./PartnersSlider";
+import HeroSpline from "./HeroSpline";
 
 const Hero = () => {
   return (
     <section className="hero sm:pb-8">
-      <div className="container ">
+      <HeroSpline />
+      <div className="container relative z-30">
         <div className="text-center sm:text-left pt-[100px] pb-[55px] sm:pb-[216px] max-w-[870px]">
           <h2 className="font-semibold text-[30px] sm:text-6xl lg:text-[64px] xl:text-7xl mb-48 sm:mb-6 text-white">
             Dor - India’s First Subscription TV

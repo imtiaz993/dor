@@ -28,8 +28,8 @@ body {
   padding: 0 15px;
 }
 .hero{
-  background: url(../public/assets/images/home/hero.png) no-repeat center;
-  background-size: cover;
+  /* background: url(../public/assets/images/home/hero.png) no-repeat center; */
+  /* background-size: cover; */
 }
 .gredientHeading{
   background-color: #3A63F1;
