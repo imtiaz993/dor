@@ -1,16 +1,20 @@
+"use client";
+
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import Faqs from "./components/Faqs";
 import TopSection from "./components/TopSection";
-import RaiseTicketPopup from "./components/RaiseTicketPopup";
+import { useState } from "react";
+import ResolveQuery from "./components/ResolveQuery";
 
 const Service = () => {
+  const [activeTab, setActiveTab] = useState("DOR");
   return (
     <>
-      <RaiseTicketPopup />
       <Navbar />
-      <TopSection />
+      <TopSection activeTab={activeTab} setActiveTab={setActiveTab} />
       <Faqs />
+      {activeTab === "DORPlay" && <ResolveQuery />}
       <Footer />
     </>
   );

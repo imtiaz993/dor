@@ -1,6 +1,6 @@
 import React from "react";
 
-const TopSection = () => {
+const TopSection = ({ activeTab, setActiveTab }: any) => {
   return (
     <div className="pt-[140px]">
       <div className="container">
@@ -11,10 +11,28 @@ const TopSection = () => {
           We are happy to help
         </h1>
         <div className="grid grid-cols-2 gap-x-10">
-          <div className="border text-center  cursor-pointer border-[#F7F7F7] rounded-lg py-5 text-[#F7F7F7] text-3xl">
+          <div
+            onClick={() => {
+              setActiveTab("DOR");
+            }}
+            className={`border text-center  cursor-pointer  rounded-lg py-5  text-3xl ${
+              activeTab === "DOR"
+                ? "border-[#F7F7F7] text-[#F7F7F7]"
+                : "border-[#333333] text-[#8B8B8B]"
+            }`}
+          >
             Dor
           </div>
-          <div className="border text-center  cursor-pointer border-[#333333] rounded-lg py-5 text-[#8B8B8B] text-3xl">
+          <div
+            onClick={() => {
+              setActiveTab("DORPlay");
+            }}
+            className={`border text-center  cursor-pointer  rounded-lg py-5  text-3xl ${
+              activeTab === "DORPlay"
+                ? "border-[#F7F7F7] text-[#F7F7F7]"
+                : "border-[#333333] text-[#8B8B8B]"
+            }`}
+          >
             DorPlay
           </div>
         </div>

@@ -8,8 +8,8 @@ const Hero = () => {
     <section className="hero sm:pb-8">
       <HeroSpline />
       <div className="container relative z-30">
-        <div className="text-center sm:text-left pt-[100px] pb-[55px] sm:pb-[216px] max-w-[870px]">
-          <h2 className="font-semibold text-[30px] sm:text-6xl lg:text-[64px] xl:text-7xl mb-48 sm:mb-6 text-white">
+        <div className="text-center sm:text-left pt-[100px] sm:pb-[216px] max-w-[870px]">
+          <h2 className="font-semibold text-[30px] sm:text-6xl lg:text-[64px] xl:text-7xl mb-60 sm:mb-6 text-white">
             Dor - India’s First Subscription TV
           </h2>
           <p className="text-sm sm:text-lg md:text-xl leading-[1.5] text-[#D1D1D1] mb-3">
