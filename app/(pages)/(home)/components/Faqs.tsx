@@ -15,12 +15,7 @@ const Faqs = () => {
         <>
         <FAQAccordian />
         </>
-        <Link
-          href={"/faqs"}
-          className="text-[#F6443C] font-semibold text-[12px] sm:text-sm xl:text-base leading-[1.5] mt-4 pb-6 lg:pb-2 xl:pb-10 flex items-center"
-        >
-          See All
-        </Link>
+      
         <p className="text-[#CDCDCD] text-[12px] sm:text-sm xl:text-base leading-[1.3] mb-1 sm:mb-2 flex items-center justify-center sm:justify-start">
           Still have questions?
         </p>

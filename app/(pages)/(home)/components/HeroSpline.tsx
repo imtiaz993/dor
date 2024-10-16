@@ -23,7 +23,7 @@ const HeroSpline = () => {
           <Spline
             scene="https://prod.spline.design/Ahm5gff6Y-coyvbT/scene.splinecode"
             onLoad={() => setIsSplineLoaded(true)}
-            style={{height:"600px"}}
+            style={{height:"550px"}}
           />
         </div>
       </div>

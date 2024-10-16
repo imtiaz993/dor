@@ -1,7 +1,10 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 const MultiSliders = () => {
+  const [showAll, setShowAll] = useState(false);
   return (
     <section className="pt-6 mb-10 sm:mb-0">
       <div className="container">
@@ -26,7 +29,7 @@ const MultiSliders = () => {
               alt=""
               className="w-3 h-auto"
             />
-            Available in 43” and 55”
+            Available in 43”
           </div>
           <div className="flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]">
             <Image
@@ -46,7 +49,7 @@ const MultiSliders = () => {
               alt=""
               className="w-3 h-auto"
             />
-            400+ live channels
+            300+ live channels
           </div>
           <div className="flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]">
             <Image
@@ -56,18 +59,9 @@ const MultiSliders = () => {
               alt=""
               className="w-3 h-auto"
             />
-            Subscription to 25+ OTTs
+            Subscription to 24+ OTTs
           </div>
-          <div className="flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]">
-            <Image
-              src="/assets/images/home/brain.svg"
-              width="12"
-              height="12"
-              alt=""
-              className="w-3 h-auto"
-            />
-            Gen AI Technology
-          </div>
+
           <div className="flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]">
             <Image
               src="/assets/images/home/4k.svg"
@@ -78,7 +72,22 @@ const MultiSliders = () => {
             />
             4K UHD resolution
           </div>
-          <div className="flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]">
+          {!showAll && (
+            <div
+              className="ml-1 text-sm sm:hidden"
+              onClick={() => {
+                setShowAll(true);
+              }}
+            >
+              +4 more
+            </div>
+          )}
+
+          <div
+            className={`${
+              showAll ? "flex" : "hidden"
+            } sm:flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]`}
+          >
             <Image
               src="/assets/images/home/icons/missing_controller.svg"
               width="12"
@@ -88,7 +97,11 @@ const MultiSliders = () => {
             />
             Solar Remote
           </div>
-          <div className="flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]">
+          <div
+            className={`${
+              showAll ? "flex" : "hidden"
+            } sm:flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]`}
+          >
             <Image
               src="/assets/images/home/icons/Vector.svg"
               width="12"
@@ -98,7 +111,11 @@ const MultiSliders = () => {
             />
             Voice Search
           </div>
-          <div className="flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]">
+          <div
+            className={`${
+              showAll ? "flex" : "hidden"
+            } sm:flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]`}
+          >
             <Image
               src="/assets/images/home/icons/surround_sound.svg"
               width="12"
@@ -108,7 +125,11 @@ const MultiSliders = () => {
             />
             Dolby Digital Sound
           </div>
-          <div className="flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]">
+          <div
+            className={`${
+              showAll ? "flex" : "hidden"
+            } sm:flex items-center gap-x-[2px] sm:gap-x-1 xl:gap-x-2 px-2 sm:px-3 md:px-3.5 xl:px-4 py-1 md:py-1.5 border border-white rounded-[4px] text-[11px] md:text-sm text-[#E4F3FC]`}
+          >
             <Image
               src="/assets/images/home/icons/mobile.svg"
               width="12"
@@ -127,7 +148,7 @@ const MultiSliders = () => {
             href="#"
             className="w-full justify-center text-[12px] sm:text-sm lg:text-base font-semibold leading-[1.8] flex sm:w-fit items-center gap-x-2 py-2 px-4 bg-[#F6443C] rounded-[30px]"
           >
-            Buy on Flipkart
+            Coming Soon
             <Image
               src="/assets/images/home/right-chev.svg"
               width="8"

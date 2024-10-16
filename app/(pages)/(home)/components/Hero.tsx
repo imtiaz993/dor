@@ -19,7 +19,7 @@ const Hero = () => {
             href="#"
             className="w-full justify-center text-[12px] sm:text-sm md:text-base font-semibold leading-[1.8] flex sm:w-fit items-center gap-x-2 py-2 px-4 bg-[#F6443C] rounded-[30px]"
           >
-            Available exclusively on Flipkart
+            Coming Soon
             <Image
               src="/assets/images/home/right-chev.svg"
               width="8"

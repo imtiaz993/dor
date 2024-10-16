@@ -13,7 +13,10 @@ const Explore = () => {
   const swiperRef = useRef<any>();
   const [swiperIndex, setSwiperIndex] = useState(0);
   return (
-    <section className="relative pt-10 md:pt-14 lg:pt-16 xl:pt-[76px] pb-12 md:pb-16 lg:pb-[86px] xl:pb-[105px]">
+    <section
+      className="relative pt-10 md:pt-14 lg:pt-16 xl:pt-[76px] pb-12 md:pb-16 lg:pb-[86px] xl:pb-[105px]"
+      id="explore"
+    >
       <div className="container">
         <h1 className="font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-2 text-center">
           Explore the world of Dor
@@ -63,15 +66,12 @@ const Explore = () => {
                   className="w-2.5 h-auto"
                 />
               </Link>
-              <p className="mx-auto px-2 mt-1 text-[11px] md:text-sm text-[#D1D1D1]">
-              *Upfront fee of ₹10,999
-              </p>
               <Image
                 src="/assets/images/home/dor.png"
                 width="550"
                 height="374"
                 alt=""
-                className="w-auto h-[182px] sm:h-[200px] md:h-[240px] lg:h-[300px] mx-auto"
+                className="w-auto h-[182px] sm:h-[200px] md:h-[240px] lg:h-[300px] mx-auto mt-6"
               />
             </div>
           </SwiperSlide>
@@ -105,7 +105,7 @@ const Explore = () => {
                 width="550"
                 height="374"
                 alt=""
-                className="w-full sm:w-auto h-[130px] sm:h-[165px] md:h-[205px] lg:h-[265px] mx-auto mb-10"
+                className="w-[90%] sm:w-auto h-[130px] sm:h-[165px] md:h-[205px] lg:h-[265px] mx-auto mb-10"
               />
             </div>
           </SwiperSlide>

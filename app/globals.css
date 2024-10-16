@@ -98,3 +98,15 @@ select:-webkit-autofill:focus {
     text-wrap: balance;
   }
 }
+.osSplice canvas {
+  max-width: 700px;
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media screen and (max-width: 640px) {
+  .osSplice canvas {
+    width: 100% !important;
+    height: 400px !important;
+  }
+}

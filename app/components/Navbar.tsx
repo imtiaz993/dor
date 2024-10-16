@@ -25,7 +25,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className="py-3.5 absolute z-10 w-full top-0 left-0">
+    <header className="py-3.5 absolute z-40 w-full top-0 left-0">
       <div className="container">
         <div className="flex items-center sm:gap-x-12 md:gap-x-16 xl:gap-x-20 ">
           <Link href="/" className="flex items-center">
@@ -77,6 +77,11 @@ const Navbar = () => {
               <Image src={"./xmark-solid.svg"} width="20" height="20" alt="" />
             </div>
             <li>
+              <Link href="#explore" className="text-sm leading-[1.8]">
+                Features
+              </Link>
+            </li>
+            <li>
               <Link href="#" className="text-sm leading-[1.8]">
                 DorTV
               </Link>
@@ -91,11 +96,7 @@ const Navbar = () => {
                 DorOS
               </Link>
             </li>
-            <li>
-              <Link href="#" className="text-sm leading-[1.8]">
-                About
-              </Link>
-            </li>
+
             <li className="sm:ml-auto">
               <Link
                 href="#"

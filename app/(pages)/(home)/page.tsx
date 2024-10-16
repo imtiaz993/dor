@@ -11,6 +11,12 @@ import WelcomeText from "./components/WelcomeText";
 
 const Explore = dynamic(() => import("./components/Explore"), { ssr: false });
 
+export const metadata = {
+  title: "Welcome to Dor",
+  description: "Your doorway to unlimited entertainment.",
+};
+
+
 export default function Home() {
   return (
     <>

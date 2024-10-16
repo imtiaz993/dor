@@ -24,7 +24,11 @@ const config: Config = {
         "gray-600": "#646464",
         "gray-700": "#515151",
         "success-100": "#6CE9A6",
+        "success-500": "#12B76A",
+        "success-900": "#054F31",
         "error-100": "#FECDCA",
+        "error-500": "#F04438",
+        "error-900": "#7A271A",
       },
       fontFamily: {
         geist: ['var(--font-geist-sans)'],

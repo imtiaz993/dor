@@ -3,7 +3,7 @@
 import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Navbar from "./components/Navbar/Navbar";
-import Overview from "./components/Overview/Overview";
+import ProfilePage from "./components/ProfilePage/ProfilePage";
 
 const ProfileContent = () => {
   const searchParams = useSearchParams();
@@ -15,16 +15,16 @@ const ProfileContent = () => {
   const data = {name, phone, email};
 
   return (
-    <>
+    <div className=''>
       <Navbar data={data}/>
-      <Overview data={data}/>
-    </>
+      <ProfilePage data={data}/>
+    </div>
   );
 };
 
 const Profile = () => {
   return (
-    <div className="bg-gray-900 h-dvh">
+    <div className="bg-gray-900">
       <Suspense fallback={<div>Loading...</div>}>
         <ProfileContent />
       </Suspense>

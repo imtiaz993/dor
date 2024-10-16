@@ -14,52 +14,16 @@ const PartnersSlider = () => {
   ];
   return (
     <div className="sm:py-6">
-      <div className="hidden sm:block">
+      <div className="">
         <Marquee gradient={false} autoFill>
-          <div className="flex items-center gap-x-8 sm:gap-x-4 lg:gap-x-12 xl:gap-x-16 px-4 sm:px-2 la:px-6 xl:px-8">
+          <div className="flex items-center gap-x-8 sm:gap-x-4 lg:gap-x-12 xl:gap-x-16 px-4 sm:px-2 la:px-6 xl:px-8 overflow-hidden">
             {images.map((image, index) => (
               <Image
                 key={index}
                 sizes="100vw"
                 width={0}
                 height={0}
-                className="w-14 sm:w-24 lg:w-28 xl:w-full"
-                src={image.src}
-                alt=""
-              />
-            ))}
-          </div>
-        </Marquee>
-      </div>
-      <div className=" sm:hidden">
-        <Marquee gradient={false} autoFill>
-          <div className="flex items-center px-4 sm:px-2 lg:px-6 xl:px-8">
-            {images.slice(0, 5).map((image, index) => (
-              <Image
-                key={index}
-                sizes="100vw"
-                width={0}
-                height={0}
-                className="w-24 xl:w-full mr-10"
-                src={image.src}
-                alt=""
-              />
-            ))}
-          </div>
-        </Marquee>
-      </div>
-      <div className=" sm:hidden">
-        <Marquee gradient={false} autoFill>
-          <div className="flex items-center px-4 sm:px-2 lg:px-6 xl:px-8">
-            {images.slice(4, 8).map((image, index) => (
-              <Image
-                key={index}
-                sizes="100vw"
-                width={0}
-                height={0}
-                className={`w-32 mr-20 ${
-                  index == 1 ? "!w-14" : ""
-                }`}
+                className="w-14 sm:w-24 lg:w-28 xl:w-full scale-110"
                 src={image.src}
                 alt=""
               />

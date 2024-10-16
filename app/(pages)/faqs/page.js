@@ -8,8 +8,6 @@ export const metadata = {
   description: "Your doorway to unlimited entertainment.",
 };
 
-
-
 const FAQ = () => {
   return (
     <div className="relative">
