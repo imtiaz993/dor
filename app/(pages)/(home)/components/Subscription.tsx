@@ -103,12 +103,44 @@ const Subscription = () => {
             />
           </Link>
         </div>
+        <div className="hidden sm:flex justify-between items-center">
+          <Image
+            src="/assets/images/home/subscribe1.png"
+            width="333"
+            height="725"
+            alt=""
+            className="max-w-[360px] sm:max-w-[200px] md:max-w-[250px] lg:max-w-[300px] xl:max-w-[333px] h-auto mx-auto"
+          />
+          <div>
+            <Image
+              src="/assets/images/home/applestore.png"
+              width="200"
+              height="100"
+              alt=""
+              className="max-w-[275px] h-auto mx-auto mb-10 cursor-pointer"
+            />
+            <Image
+              src="/assets/images/home/googleplay.png"
+              width="200"
+              height="100"
+              alt=""
+              className="max-w-[275px] cursor-pointer"
+            />
+          </div>
+          <Image
+            src="/assets/images/home/subscribe2.png"
+            width="333"
+            height="725"
+            alt=""
+            className="max-w-[360px] sm:max-w-[200px] md:max-w-[250px] lg:max-w-[300px] xl:max-w-[333px] h-auto mx-auto"
+          />
+        </div>
         <Image
-          src="/assets/images/home/subscribe.png"
-          width="1581"
+          src="/assets/images/home/mob-subscribe.png"
+          width="333"
           height="725"
           alt=""
-          className="max-w-[360px] sm:max-w-[400px] md:max-w-[550px] lg:max-w-[650px] xl:max-w-[734px] h-auto mx-auto"
+          className="w-full h-auto mx-auto sm:hidden"
         />
       </div>
     </section>

@@ -40,9 +40,6 @@ body {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
-.react-tabs__tab--selected{
-  font-weight: 600;
-}
 
 
 

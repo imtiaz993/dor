@@ -133,9 +133,9 @@ const OtpInput: React.FC<OtpInputProps> = ({
           onPaste={index === 0 ? handlePaste : undefined}
           maxLength={1}
           aria-label={`OTP digit ${index + 1}`}
-          className={`w-[70px] h-[52px] border ${
+          className={` w-10 md:w-[70px] h-[33px] md:h-[52px] border ${
             value ? "border-secondary-500" : "border-gray-500"
-          } rounded-[30px] p-[10px] text-gray-900 text-center focus:outline-none focus:ring-2 focus:ring-blue-500`}
+          } rounded-[30px] p-2 md:p-[10px] text-gray-900 text-center focus:outline-none focus:ring-2 focus:ring-blue-500`}
         />
       ))}
     </div>

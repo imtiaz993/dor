@@ -12,7 +12,7 @@ const Auth = () => {
         priority
       />
       <div className="relative z-10 flex items-center justify-center w-full h-full">
-        <div className="w-[600px] bg-gray-50 h-[545px] px-[60px] py-10 flex flex-col items-center rounded-xl">
+        <div className="max-w-[600px] m-4 bg-gray-50 h-[545px] px-4 py-10 md:px-[60px] md:py-10 flex flex-col items-center rounded-xl">
           <Image
             src="/assets/icons/auth/dor-logo.svg"
             height={32}

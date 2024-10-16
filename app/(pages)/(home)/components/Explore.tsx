@@ -71,7 +71,7 @@ const Explore = () => {
                 width="550"
                 height="374"
                 alt=""
-                className="w-auto h-[142px] sm:h-[200px] md:h-[240px] lg:h-[300px] mx-auto"
+                className="w-auto h-[182px] sm:h-[200px] md:h-[240px] lg:h-[300px] mx-auto"
               />
             </div>
           </SwiperSlide>
@@ -105,7 +105,7 @@ const Explore = () => {
                 width="550"
                 height="374"
                 alt=""
-                className="w-auto h-[142px] sm:h-[200px] md:h-[240px] lg:h-[300px] mx-auto"
+                className="w-full sm:w-auto h-[130px] sm:h-[165px] md:h-[205px] lg:h-[265px] mx-auto mb-10"
               />
             </div>
           </SwiperSlide>

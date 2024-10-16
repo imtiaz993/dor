@@ -46,32 +46,40 @@ const InputWithButton: React.FC<InputWithButtonProps> = ({
   };
 
   const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const regex = /^[789]\d{9}$/;
+
     setAuthData((prevVal) => ({
       ...prevVal,
       phone: e.target.value,
+      isPhoneValid: regex.test(e.target.value),
     }));
   };
 
   return (
-    <div className="flex h-[52px] w-full items-center justify-between rounded-[54px] border border-secondary-500 p-2">
+    <div className={`flex h-[52px] w-full items-center justify-between rounded-[54px] border ${authData.isPhoneValid ? "border-secondary-500": null} p-2 bg-gray-100`}>
       <div className="flex items-center">
         <span className="ml-3 text-[16px] text-gray-500">+91</span>
         <input
           id={id}
           type="tel"
-          className="ml-1 h-6 w-[310px] bg-transparent text-[16px] leading-6 text-gray-900 focus:outline-none"
+          className="ml-1 h-6 max-w-[310px] bg-gray-100 text-[16px] leading-6 text-gray-900 focus:outline-none"
           value={authData.phone}
           onChange={handlePhoneChange}
           aria-label="Phone number input"
         />
       </div>
       <button
-        className="rounded-[48px] bg-primary-400 px-6 py-[11px]"
-        onClick={handleOnClick}
+        className={`rounded-[48px] ${authData.isPhoneValid ? "bg-primary-400" : "bg-gray-50"} px-6 py-[11px]`}
+        onClick={(e) => { 
+          if (authData.isPhoneValid) {
+            return handleOnClick(e);
+          }
+          e.preventDefault();
+        }}
         aria-label="Send OTP"
       >
         <Image
-          src="/assets/icons/auth/arrow.svg"
+          src={authData.isPhoneValid?"/assets/icons/arrow_right_white.svg": "/assets/icons/arrow_right_gray.svg"}
           alt=""
           height={14}
           width={14}

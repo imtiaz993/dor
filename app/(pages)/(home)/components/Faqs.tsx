@@ -1,14 +1,10 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import FAQAccordian from "../../../components/FAQAccordian";
 
-import "react-tabs/style/react-tabs.css";
-
 const Faqs = () => {
-  const [tabIndex, setTabIndex] = useState(0);
   return (
     <section className="py-5 md:py-10">
       <div className="container">

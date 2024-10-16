@@ -73,7 +73,7 @@ const Overview = ({
   }, [data]);
 
   return (
-    <div className="w-full flex justify-center mt-[143px]">
+    <div className="w-full flex justify-center py-[143px]">
       <div className=" w-[1120px] flex justify-between">
         <div>
           <div className="flex gap-2 cursor-pointer">

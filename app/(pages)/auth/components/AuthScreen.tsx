@@ -8,6 +8,7 @@ import PhoneCollectionScreen from "./PhoneCollectionScreen";
 export interface AuthDataInterface {
   name: string;
   phone: string;
+  isPhoneValid: boolean
   email: string;
   rememberMe: boolean;
 }
@@ -17,6 +18,7 @@ const AuthScreen = () => {
   const [authData, setAuthData] = useState<AuthDataInterface>({
     name: "",
     phone: "",
+    isPhoneValid: false,
     email: "",
     rememberMe: false,
   })
@@ -26,6 +28,7 @@ const AuthScreen = () => {
         <VerifyOTPScreen setShowOtp={setShowOtp} authData={authData}/>
       ) : (
         <PhoneCollectionScreen setShowOtp={setShowOtp} authData={authData} setAuthData={setAuthData}/>
+        // null
       )}
     </div>
   );

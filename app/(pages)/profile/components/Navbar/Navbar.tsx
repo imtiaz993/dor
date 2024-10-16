@@ -7,7 +7,7 @@ const Navbar = ({
   data: { name: string; phone: string; email: string };
 }) => {
   return (
-    <div className="bg-gray-900 border-b border-[#333] h-[60px] flex justify-center">
+    <div className="bg-gray-900 border-b border-[#333] h-[60px] flex justify-center sticky top-0">
       <div className="w-[1120px] flex justify-between">
         <div className="h-full flex items-center gap-[80px]">
           <Image

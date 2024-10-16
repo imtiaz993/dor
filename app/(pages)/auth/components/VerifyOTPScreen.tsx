@@ -45,10 +45,10 @@ const VerifyOTPScreen = ({
   return (
     <div className="flex flex-col justify-between h-full items-center">
       <div className="mt-6 flex flex-col items-center">
-        <h1 className="text-gray-900 font-semibold leading-[38px] text-[30px] font-neuehaasMedium">
+        <h1 className="text-gray-900 font-semibold leading-[38px] text-[30px] font-neuehaasMedium text-center">
           {authData.name ? `Welcome back, ${authData.name}!` : "Almost there!"}
         </h1>
-        <h2 className="text-gray-500 font-normal leading-[24px] text-[16px] mt-2 flex items-center">
+        <h2 className="text-gray-500 font-normal leading-[24px] text-[14px] md:text-[16px] mt-2 flex items-center">
           Enter OTP sent to
           <span className="text-secondary-500 ml-[2px]">
             {"+91-" + authData.phone}
@@ -69,7 +69,7 @@ const VerifyOTPScreen = ({
           />
         </div>
         <div className="mt-5">
-          <p className="text-gray-500 text-[14px]">
+          <p className="text-gray-500 text-xs md:text-[14px]">
             Having trouble? Request new OTP in 00:17s
           </p>
         </div>
