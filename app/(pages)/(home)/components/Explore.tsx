@@ -57,7 +57,7 @@ const Explore = () => {
                 href={"#"}
                 className="font-semibold text-[12px] sm:text-sm flex items-center gap-x-1 justify-center"
               >
-                Buy on Flipkart
+                Coming Soon
                 <Image
                   src="/assets/images/home/right-chev.svg"
                   width="8"

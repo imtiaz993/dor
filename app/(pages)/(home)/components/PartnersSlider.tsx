@@ -23,7 +23,7 @@ const PartnersSlider = () => {
                 sizes="100vw"
                 width={0}
                 height={0}
-                className="w-14 sm:w-24 lg:w-28 xl:w-full scale-110"
+                className="w-14 sm:w-24 lg:w-28 xl:w-full scale-125"
                 src={image.src}
                 alt=""
               />
