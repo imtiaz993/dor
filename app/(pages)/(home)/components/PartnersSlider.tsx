@@ -14,7 +14,22 @@ const PartnersSlider = () => {
   ];
   return (
     <div className="sm:py-6">
-      <div className="">
+      <div className="hidden sm:block">
+        <div className="flex items-center justify-between gap-x-8 sm:gap-x-4 lg:gap-x-12 xl:gap-x-16 px-4 sm:px-2 la:px-6 xl:px-8 overflow-hidden">
+          {images.map((image, index) => (
+            <Image
+              key={index}
+              sizes="100vw"
+              width={0}
+              height={0}
+              className="w-auto scale-125"
+              src={image.src}
+              alt=""
+            />
+          ))}
+        </div>
+      </div>
+      <div className="sm:hidden">
         <Marquee gradient={false} autoFill>
           <div className="flex items-center gap-x-8 sm:gap-x-4 lg:gap-x-12 xl:gap-x-16 px-4 sm:px-2 la:px-6 xl:px-8 overflow-hidden">
             {images.map((image, index) => (

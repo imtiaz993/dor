@@ -77,7 +77,7 @@ const Subscription = () => {
         </p>
         <div className="flex-col sm:flex-row flex items-center justify-center gap-x-6 mb-2">
           <Link
-             href={"/payment"}
+            href={"/payment"}
             className="w-full justify-center text-[12px] sm:text-sm lg:text-base font-semibold leading-[1.8] flex sm:w-fit items-center gap-x-2 py-2 px-4 bg-[#F6443C] rounded-[30px]"
           >
             Subscribe Now
@@ -92,38 +92,16 @@ const Subscription = () => {
         </div>
         <div className="hidden sm:flex justify-between items-center">
           <Image
-            src="/assets/images/home/subscribe1.png"
-            width="333"
-            height="725"
+            src="/assets/images/home/dorplay main web.png"
+            width="0"
+            height="0"
+            sizes="100vw"
             alt=""
-            className="max-w-[360px] sm:max-w-[200px] md:max-w-[250px] lg:max-w-[300px] xl:max-w-[333px] h-auto mx-auto"
-          />
-          <div>
-            <Image
-              src="/assets/images/home/applestore.png"
-              width="200"
-              height="100"
-              alt=""
-              className="max-w-[275px] h-auto mx-auto mb-10 cursor-pointer"
-            />
-            <Image
-              src="/assets/images/home/googleplay.png"
-              width="200"
-              height="100"
-              alt=""
-              className="max-w-[275px] cursor-pointer"
-            />
-          </div>
-          <Image
-            src="/assets/images/home/subscribe2.png"
-            width="333"
-            height="725"
-            alt=""
-            className="max-w-[360px] sm:max-w-[200px] md:max-w-[250px] lg:max-w-[300px] xl:max-w-[333px] h-auto mx-auto"
+            className="w-full"
           />
         </div>
         <Image
-          src="/assets/images/home/mob-subscribe.png"
+          src="/assets/images/home/dorplay main mobile.png"
           width="333"
           height="725"
           alt=""

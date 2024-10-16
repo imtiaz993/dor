@@ -13,18 +13,18 @@ const HeroSpline = () => {
         style={{ opacity: isSplineLoaded ? 1 : 0 }}
       >
         <div className="hidden sm:block">
-          <Spline
+          {/* <Spline
             scene="https://prod.spline.design/AqtcxVfviJrvj7Od/scene.splinecode"
             onLoad={() => setIsSplineLoaded(true)}
             style={{height:"670px"}}
-          />
+          /> */}
         </div>
         <div className="sm:hidden">
-          <Spline
+          {/* <Spline
             scene="https://prod.spline.design/Ahm5gff6Y-coyvbT/scene.splinecode"
             onLoad={() => setIsSplineLoaded(true)}
             style={{height:"550px"}}
-          />
+          /> */}
         </div>
       </div>
     </div>

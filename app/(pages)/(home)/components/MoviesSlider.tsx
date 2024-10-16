@@ -20,31 +20,63 @@ const MoviesSlider = () => {
   return (
     <>
       <div className="hidden sm:block">
-        {Array.from({ length: 3 }).map((_, index) => (
-          <div className="mb-4">
-            <Marquee
-              gradient={false}
-              autoFill
-              direction={index % 2 === 1 ? "right" : "left"}
-            >
-              <div className="flex items-center gap-x-5 px-2.5">
-                {images
-                  .sort(() => Math.random() - 0.5)
-                  .map((image, index) => (
-                    <Image
-                      key={index}
-                      sizes="100vw"
-                      width={347}
-                      height={198}
-                      className="h-[100px] sm:h-16 md:h-28 lg:h-32 xl:h-[198px] w-auto object-cover"
-                      src={image.src}
-                      alt=""
-                    />
-                  ))}
-              </div>
-            </Marquee>
-          </div>
-        ))}
+        <div className="mb-4">
+          <Marquee gradient={false} autoFill direction={"left"}>
+            <div className="flex items-center gap-x-5 px-2.5">
+              {images
+                .slice(0, 4)
+                .map((image, index) => (
+                  <Image
+                    key={index}
+                    sizes="100vw"
+                    width={347}
+                    height={198}
+                    className="h-[100px] sm:h-16 md:h-28 lg:h-32 xl:h-[198px] w-auto object-cover"
+                    src={image.src}
+                    alt=""
+                  />
+                ))}
+            </div>
+          </Marquee>
+        </div>
+        <div className="mb-4">
+          <Marquee gradient={false} autoFill direction={"right"}>
+            <div className="flex items-center gap-x-5 px-2.5">
+              {images
+                .slice(4, 8)
+                .map((image, index) => (
+                  <Image
+                    key={index}
+                    sizes="100vw"
+                    width={347}
+                    height={198}
+                    className="h-[100px] sm:h-16 md:h-28 lg:h-32 xl:h-[198px] w-auto object-cover"
+                    src={image.src}
+                    alt=""
+                  />
+                ))}
+            </div>
+          </Marquee>
+        </div>
+        <div className="mb-4">
+          <Marquee gradient={false} autoFill direction={"left"}>
+            <div className="flex items-center gap-x-5 px-2.5">
+              {images
+                .slice(8, 12)
+                .map((image, index) => (
+                  <Image
+                    key={index}
+                    sizes="100vw"
+                    width={347}
+                    height={198}
+                    className="h-[100px] sm:h-16 md:h-28 lg:h-32 xl:h-[198px] w-auto object-cover"
+                    src={image.src}
+                    alt=""
+                  />
+                ))}
+            </div>
+          </Marquee>
+        </div>
       </div>
       <div className=" sm:hidden">
         {Array.from({ length: 4 }).map((_, index) => (

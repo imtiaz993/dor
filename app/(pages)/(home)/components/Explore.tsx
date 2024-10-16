@@ -51,7 +51,9 @@ const Explore = () => {
                 Dor
               </h1>
               <p className="mb-7 sm:mb-[22px] mx-auto px-2 text-[12px] md:text-sm text-[#D1D1D1]">
-                Available in 43" for as low as ₹999/month*
+                Get the best-in-class television bundled with streaming
+                services, live channels and arcade games. Available in 43” for
+                as low as Rs. 999/month
               </p>
               <Link
                 href={"#"}
@@ -71,7 +73,7 @@ const Explore = () => {
                 width="550"
                 height="374"
                 alt=""
-                className="w-auto h-[182px] sm:h-[200px] md:h-[240px] lg:h-[300px] mx-auto mt-6"
+                className="w-auto h-[182px] sm:h-[200px] md:h-[240px] lg:h-[300px] mx-auto mt-1"
               />
             </div>
           </SwiperSlide>
