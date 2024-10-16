@@ -157,23 +157,8 @@ const MultiSliders = () => {
               className="w-2.5 h-auto"
             />
           </Link>
-          <Link
-            href="#"
-            className="text-[12px] sm:text-sm lg:text-base font-semibold leading-[1.8] flex w-fit items-center gap-x-2 py-2 px-4 rounded-[30px]"
-          >
-            Learn More
-            <Image
-              src="/assets/images/home/right-chev.svg"
-              width="8"
-              height="12"
-              alt=""
-              className="w-2.5 h-auto"
-            />
-          </Link>
         </div>
-        <p className="text-xs text-center text-[#ACACAC]">
-          *Upfront fee of ₹10,999 - includes 3 months subscription
-        </p>
+      
         <Image
           src="/assets/images/home/dor-mob.png"
           width="803"

@@ -88,7 +88,7 @@ const Explore = () => {
                 in one place. 24+ OTT Subscriptions at Just ₹499/3 Months
               </p>
               <Link
-                href={"#"}
+                href={"/payment"}
                 className="font-semibold text-[12px] sm:text-sm flex items-center gap-x-1 justify-center"
               >
                 Get Subscribed

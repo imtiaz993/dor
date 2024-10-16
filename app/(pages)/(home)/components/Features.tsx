@@ -90,7 +90,7 @@ const Features = () => {
               href="#"
               className="text-[12px] sm:text-sm lg:text-base font-semibold leading-[1.8] flex justify-center sm:justify-start sm:w-fit items-center gap-x-2 py-2 px-4 bg-[#F6443C] rounded-[30px]"
             >
-              Contact Us
+              Coming Soon
               <Image
                 src="/assets/images/home/right-chev.svg"
                 width="8"

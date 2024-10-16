@@ -77,23 +77,10 @@ const Subscription = () => {
         </p>
         <div className="flex-col sm:flex-row flex items-center justify-center gap-x-6 mb-2">
           <Link
-            href="#"
+             href={"/payment"}
             className="w-full justify-center text-[12px] sm:text-sm lg:text-base font-semibold leading-[1.8] flex sm:w-fit items-center gap-x-2 py-2 px-4 bg-[#F6443C] rounded-[30px]"
           >
             Subscribe Now
-            <Image
-              src="/assets/images/home/right-chev.svg"
-              width="8"
-              height="12"
-              alt=""
-              className="w-2.5 h-auto"
-            />
-          </Link>
-          <Link
-            href="#"
-            className="text-[12px] sm:text-sm lg:text-base font-semibold leading-[1.8] flex w-fit items-center gap-x-2 py-2 px-4 rounded-[30px]"
-          >
-            Learn More
             <Image
               src="/assets/images/home/right-chev.svg"
               width="8"
