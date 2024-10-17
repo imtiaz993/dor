@@ -11,7 +11,7 @@ const ResolveQuery = () => {
             Choose a category you need help with
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-x-10 gap-y-5 pb-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-x-10 sm:gap-y-5 pb-10">
           <div className="p-4 border border-[#333333] rounded-lg flex items-center">
             <Image
               src="/assets/icons/support/credit_card.svg"
@@ -21,7 +21,7 @@ const ResolveQuery = () => {
               alt=""
               className="w-auto h-auto"
             />
-            <p className="text-[#F7F7F7] ml-2">Subscription</p>
+            <p className="text-[#F7F7F7] ml-2 text-xs sm:text-base">Subscription</p>
           </div>
           <div className="p-4 border border-[#333333] rounded-lg flex items-center">
             <Image
@@ -32,7 +32,7 @@ const ResolveQuery = () => {
               alt=""
               className="w-auto h-auto"
             />
-            <p className="text-[#F7F7F7] ml-2">Onboarding</p>
+            <p className="text-[#F7F7F7] ml-2 text-xs sm:text-base">Onboarding</p>
           </div>
           <div className="p-4 border border-[#333333] rounded-lg flex items-center">
             <Image
@@ -43,7 +43,7 @@ const ResolveQuery = () => {
               alt=""
               className="w-auto h-auto"
             />
-            <p className="text-[#F7F7F7] ml-2">Account related</p>
+            <p className="text-[#F7F7F7] ml-2 text-xs sm:text-base">Account related</p>
           </div>
           <div className="p-4 border border-[#333333] rounded-lg flex items-center">
             <Image
@@ -54,7 +54,7 @@ const ResolveQuery = () => {
               alt=""
               className="w-auto h-auto"
             />
-            <p className="text-[#F7F7F7] ml-2">New customer</p>
+            <p className="text-[#F7F7F7] ml-2 text-xs sm:text-base">New customer</p>
           </div>
           <div className="p-4 border border-[#333333] rounded-lg flex items-center">
             <Image
@@ -65,7 +65,7 @@ const ResolveQuery = () => {
               alt=""
               className="w-auto h-auto"
             />
-            <p className="text-[#F7F7F7] ml-2">Troubleshooting</p>
+            <p className="text-[#F7F7F7] ml-2 text-xs sm:text-base">Troubleshooting</p>
           </div>
           <div className="p-4 border border-[#333333] rounded-lg flex items-center">
             <Image
@@ -76,7 +76,7 @@ const ResolveQuery = () => {
               alt=""
               className="w-auto h-auto"
             />
-            <p className="text-[#F7F7F7] ml-2">Support</p>
+            <p className="text-[#F7F7F7] ml-2 text-xs sm:text-base">Support</p>
           </div>
           <div className="p-4 border border-[#333333] rounded-lg flex items-center">
             <Image
@@ -87,7 +87,7 @@ const ResolveQuery = () => {
               alt=""
               className="w-auto h-auto"
             />
-            <p className="text-[#F7F7F7] ml-2">Content recommendation</p>
+            <p className="text-[#F7F7F7] ml-2 text-xs sm:text-base">Content recommendation</p>
           </div>
           <div className="p-4 border border-[#333333] rounded-lg flex items-center">
             <Image
@@ -98,7 +98,7 @@ const ResolveQuery = () => {
               alt=""
               className="w-auto h-auto"
             />
-            <p className="text-[#F7F7F7] ml-2">Notifications and alerts</p>
+            <p className="text-[#F7F7F7] ml-2 text-xs sm:text-base">Notifications and alerts</p>
           </div>
         </div>
       </div>

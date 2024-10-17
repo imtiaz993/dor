@@ -14,7 +14,7 @@ const SelfHelpVideos = () => {
           </p>
         </div>
         <div className="flex overflow-auto gap-x-5 pb-10">
-          <div>
+          <div className="min-w-[140px]">
             <div className="relative">
               <p className="absolute top-4 left-5 inline-block border border-[#F7F7F7] rounded-full py-1 px-2 text-[10px] text-[#F7F7F7]">
                 Onboarding
@@ -32,7 +32,7 @@ const SelfHelpVideos = () => {
               How do I create an account?
             </p>
           </div>
-          <div>
+          <div className="min-w-[140px]">
             <div className="relative">
               <p className="absolute top-4 left-5 inline-block border border-[#F7F7F7] rounded-full py-1 px-2 text-[10px] text-[#F7F7F7]">
                 Onboarding
@@ -50,7 +50,7 @@ const SelfHelpVideos = () => {
               How do I create an account?
             </p>
           </div>
-          <div>
+          <div className="min-w-[140px]">
             <div className="relative">
               <p className="absolute top-4 left-5 inline-block border border-[#F7F7F7] rounded-full py-1 px-2 text-[10px] text-[#F7F7F7]">
                 Onboarding
@@ -68,7 +68,7 @@ const SelfHelpVideos = () => {
               How do I create an account?
             </p>
           </div>
-          <div>
+          <div className="min-w-[140px]">
             <div className="relative">
               <p className="absolute top-4 left-5 inline-block border border-[#F7F7F7] rounded-full py-1 px-2 text-[10px] text-[#F7F7F7]">
                 Onboarding

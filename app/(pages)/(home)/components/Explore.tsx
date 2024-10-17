@@ -21,7 +21,7 @@ const Explore = () => {
         <h1 className="font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-2 text-center">
           Explore the world of Dor
         </h1>
-        <p className="text-[#D1D1D1] text-[12px] sm:text-sm md:text-base lg:text-lg xl:text-xl text-center mb-8 md:mb-12 xl:mb-20">
+        <p className="text-[#D1D1D1] text-[12px] sm:text-sm md:text-base lg:text-lg xl:text-xl text-center mb-8 md:mb-12 xl:mb-20"  id="dor" >
           Everything you want to watch, at a screen closest to you
         </p>
 
@@ -53,7 +53,7 @@ const Explore = () => {
               <p className="mb-7 sm:mb-[22px] mx-auto px-2 text-[12px] md:text-sm text-[#D1D1D1]">
                 Get the best-in-class television bundled with streaming
                 services, live channels and arcade games. Available in 43” for
-                as low as Rs. 999/month
+                as low as ₹999/month
               </p>
               <Link
                 href={"#"}

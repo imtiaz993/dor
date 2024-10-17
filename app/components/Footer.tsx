@@ -6,17 +6,17 @@ const Footer = () => {
       <div className="container">
         <ul className="gap-y-4 flex-col sm:flex-row flex sm:items-center justify-between py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20">
           <li>
-            <Link href={"#"} className="text-[12px] text-[#F7F7F7]">
+            <Link href={"#dor"} className="text-[12px] text-[#F7F7F7]">
               DorTV
             </Link>
           </li>
           <li>
-            <Link href={"#"} className="text-[12px] text-[#F7F7F7]">
+            <Link href={"#dor"} className="text-[12px] text-[#F7F7F7]">
               DorPlay
             </Link>
           </li>
           <li>
-            <Link href={"#"} className="text-[12px] text-[#F7F7F7]">
+            <Link href={"#dorOS"} className="text-[12px] text-[#F7F7F7]">
               DorOS
             </Link>
           </li>

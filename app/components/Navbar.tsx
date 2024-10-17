@@ -82,22 +82,22 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-sm leading-[1.8]">
+              <Link href="#dor" className="text-sm leading-[1.8]">
                 DorTV
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-sm leading-[1.8]">
+              <Link href="#dor" className="text-sm leading-[1.8]">
                 DorPlay
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-sm leading-[1.8]">
+              <Link href="#dorOS" className="text-sm leading-[1.8]">
                 DorOS
               </Link>
             </li>
 
-            <li className="sm:ml-auto">
+            {/* <li className="sm:ml-auto">
               <Link
                 href="#"
                 className="text-sm leading-[1.8] flex items-center gap-x-1"
@@ -110,8 +110,8 @@ const Navbar = () => {
                 />
                 Support
               </Link>
-            </li>
-            <li>
+            </li> */}
+            <li className="sm:ml-auto">
               <Link
                 href="/auth"
                 className="text-[12px] font-semibold leading-[1.8] flex items-center gap-x-1 py-1.5 px-3 bg-[#F6443C] rounded-[20px]"

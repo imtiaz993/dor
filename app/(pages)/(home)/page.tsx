@@ -12,10 +12,10 @@ import WelcomeText from "./components/WelcomeText";
 const Explore = dynamic(() => import("./components/Explore"), { ssr: false });
 
 export const metadata = {
-  title: "Welcome to Dor",
-  description: "Your doorway to unlimited entertainment.",
+  title: "Dor - India’s first Smart TV with All-In-One Subscription",
+  description:
+    "Experience Dor, India’s first subscription Live TV with 4K QLED, AI-powered recommendations, and seamless access to top OTTs and streaming apps.",
 };
-
 
 export default function Home() {
   return (
